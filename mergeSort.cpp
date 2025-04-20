@@ -14,4 +14,14 @@ void input()
             break;
         cout << "\nMaksimal panjang array adalah 20" << endl;
     }
+
+    cout << "\n------------------------------" << endl;
+    cout << "Inputkan Isi elemen array" << endl;
+    cout << "\n------------------------------" << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Array index ke- " << i << " : ";
+        cin >> arr[i];
+    }
 }
